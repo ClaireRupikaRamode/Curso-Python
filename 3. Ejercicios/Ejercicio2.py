@@ -14,3 +14,23 @@ peso_payaso = 112  # en gramos
 peso_muneca = 75   # en gramos
 
 print("El peso total de la venta es de", (cantidad_payasos * peso_payaso + cantidad_munecas * peso_muneca), "gramos")
+
+'''Sugerencia de resolución por el curso:'''
+
+###Sugerencia 1
+print("El peso total es de: ", ((23 * 112) + (54 * 75)), "gramos")
+
+###Sugerencia 2
+PesoPayasos = 112
+PesoMunecas = 75
+CantidadPayasos = 23
+CantidadMunecas = 54
+
+Procedimiento = ((CantidadPayasos * PesoPayasos) + (CantidadMunecas * PesoMunecas))
+
+print("El peso total es de: ", Procedimiento, "gramos")
+
+###Sugerencia 3
+Procedimiento2 = ((CantidadPayasos * 112) + (CantidadMunecas * 75))
+
+print("El peso total es de: ", Procedimiento2, "gramos")
